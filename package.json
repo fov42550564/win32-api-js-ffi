@@ -1,0 +1,22 @@
+{
+  "name": "w",
+  "version": "0.0.1",
+  "description": "Bindings to the win32 api via ffi",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/Benvie/W"
+  },
+  "keywords": [
+    "Windows",
+    "win32",
+    "api",
+    "ffi",
+    "bindings",
+    "c++",
+    "registry"
+  ],
+  "author": "Brandon Benvie",
+  "license": "MIT",
+  "gypfile": true
+}
