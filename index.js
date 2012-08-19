@@ -7,11 +7,11 @@ var bindings = require('./bindings');
 
 
 module.exports = {
-  enumerateWindows: Window.enumerate,
+  enumerate: Window.enumerate,
   lookup: bindings,
-  Window: Window
+  Window: Window,
+  createMouseHook: require('./input')
 };
-
 
  // WM_GETICON = 127,
  //    WM_SETICON = 128,
